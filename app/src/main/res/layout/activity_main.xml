@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#F04334">
+
+    <ImageView
+        android:id="@+id/LogoimageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@android:drawable/ic_lock_power_off"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="130dp"/>
+
+    <EditText
+        android:id="@+id/EmaileditText"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="310dp"/>
+
+    <EditText
+        android:id="@+id/PasswordeditText"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="380dp"
+        android:hint="Password"
+        />
+
+    <Button
+        android:id="@+id/Forgotbutton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgotten password?"
+        android:layout_marginTop="445dp"
+        android:layout_marginLeft="80dp"
+        android:textAllCaps="false"
+        android:textSize="14sp"/>
+
+    <Button
+        android:id="@+id/Loginbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:layout_marginTop="445dp"
+        android:layout_marginLeft="246dp"/>
+
+
+</RelativeLayout>
